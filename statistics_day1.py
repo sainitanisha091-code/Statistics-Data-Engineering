@@ -1,5 +1,5 @@
 import numpy as np 
-data = np.array([10,20,30,40,50])
+data = np.array([12, 15, 18, 20, 25, 30, 35])
 
 mean = np.mean(data)
 print(mean)
@@ -7,11 +7,14 @@ print(mean)
 median = np.median(data)
 print(median)
 
-varience = np.var(data)
-print(varience)
+variance = np.var(data)
+print(variance)
 
 standard_deviation = np.std(data)
 print(standard_deviation)
+
+range_value = np.max(data)-np.min(data)
+print(range_value)
 
 minimum = np.min(data)
 print(minimum)

@@ -1,0 +1,10 @@
+import numpy as np 
+sales = np.array(input().split(), dtype=float)
+population_variance = np.var(sales)
+sample_variance = np.var(sales, ddof=1)
+standard_deviation = np.std(sales)
+sample_std = np.std(sales, ddof=1)  
+print(population_variance)
+print(sample_variance)
+print(standard_deviation)
+print(sample_std)

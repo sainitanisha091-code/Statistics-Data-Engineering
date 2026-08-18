@@ -1,0 +1,10 @@
+IQR = Q3 - Q1
+
+Lower Bound = Q1 - 1.5 × IQR
+
+Upper Bound = Q3 + 1.5 × IQR
+
+Outlier:
+value < Lower Bound
+OR
+value > Upper Bound
